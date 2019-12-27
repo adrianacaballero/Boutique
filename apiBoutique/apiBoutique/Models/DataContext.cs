@@ -9,5 +9,7 @@ namespace apiBoutique.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<apiBoutique.Models.Boutique> Boutiques { get; set; }
     }
 }
