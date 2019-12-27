@@ -76,7 +76,7 @@
                 boutique.Pant = lista.Pant;
                 boutique.Shirt = lista.Shirt;
                 boutique.Accessory = lista.Accessory;
-                collection.Add(boutique);
+                collection.Add(boutique); 
             }
             return (collection);
         }
